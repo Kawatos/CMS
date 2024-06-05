@@ -11,7 +11,12 @@ if (isset($_POST["create"])) {
     echo $content;
     echo $date; */
 
-    $sqlInsert = "INSERT INTO posts()"
+    $sqlInsert = "INSERT INTO posts(date, title, summary, content) VALUES ('$date', '$title', '$summary', '$content')";
+    if (mysqli_query($conn, $sqlInsert)){
+
+    } else {
+        die("DAdos não foram inseridos");
+    }
 }
 
 ?>
