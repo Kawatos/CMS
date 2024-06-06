@@ -30,7 +30,7 @@
                                 <?php echo $data["content"]; ?>
                             </div>
                             <div class="col-sm-2">
-                                <a href="view.php?id=<?php  echo $data['id'];?>" class="btn btn-primary">Leia mais...</a>
+                                <a href="view.php?id=<?php  echo $data['id'];?>" class="btn btn-primary">Visualizar</a>
                             </div>
                         </div>
                     <?php
@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="footer bg-dark p-4 mt-4">
-        <a href="admin/index.php" class="text-light "></a>
+        <a href="admin/index.php" class="text-light ">Painel de controle</a>
 
     </div>
 </body>
